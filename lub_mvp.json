@@ -1,0 +1,64 @@
+{
+    "WP1 – User Management": [
+      {
+        "name": "Sign-up und Login mit JWT + TOTP",
+        "description": "Implementiere Nutzerregistrierung und Login mit JSON Web Tokens sowie Zwei-Faktor-Authentifizierung mittels TOTP (z. B. Google Authenticator)."
+      },
+      {
+        "name": "Sign-out / Token Refresh",
+        "description": "Ergänze Logout-Mechanismus sowie automatischen Refresh von Access Tokens über Refresh Tokens."
+      },
+      {
+        "name": "Passwort-Reset via E-Mail (OTP)",
+        "description": "Stelle einen sicheren Passwort-Zurücksetzen-Flow über Einmalcode (OTP) per E-Mail bereit."
+      },
+      {
+        "name": "Rollen- und Rechteverwaltung",
+        "description": "Definiere und implementiere rollenbasierten Zugriff (Admin, Operator, Dienstleister)."
+      },
+      {
+        "name": "Nutzerverwaltung im Admin-Panel",
+        "description": "Erstelle UI für Admins zur Verwaltung von Benutzern, inkl. Status, Rollen und Aktivierung/Deaktivierung."
+      }
+    ],
+    "WP2 – Master Data Management (MDM)": [
+      {
+        "name": "Definition der MDM-Entitäten",
+        "description": "Definiere die benötigten Stammdaten-Entitäten wie Maschinen, Produkte, Komponenten etc. mit ihren Attributen."
+      },
+      {
+        "name": "CRUD-API mit Validierung",
+        "description": "Erstelle Backend-Endpunkte für Erstellen, Lesen, Aktualisieren und Löschen inkl. Validierungslogik."
+      },
+      {
+        "name": "UI-Komponenten für MDM",
+        "description": "Ergänze Tabellen, Filter und Formulare im Frontend für die Pflege der MDM-Daten."
+      },
+      {
+        "name": "Mandantenabhängiger Zugriff",
+        "description": "Sorge für Datenisolation nach Mandant (z. B. Kunde) im Backend und Frontend."
+      },
+      {
+        "name": "Integration mit Nutzerrollen",
+        "description": "Stelle sicher, dass nur berechtigte Rollen Zugriff auf relevante MDM-Elemente haben."
+      }
+    ],
+    "WP3 – Deployment & Onboarding": [
+      {
+        "name": "Bereitstellung docker-compose Setup",
+        "description": "Stelle ein lauffähiges docker-compose Setup inkl. App, Backend, Postgres und Reverse Proxy bereit."
+      },
+      {
+        "name": "Abstimmung Infrastruktur mit Rhenus",
+        "description": "Technischer Abgleich mit der Rhenus-IT bzgl. Netz, Port, Logging, Authentifizierung und Sicherheit."
+      },
+      {
+        "name": "Technische Betriebsdokumentation",
+        "description": "Erstelle Readme, Konfigurationsanleitungen und Backuphinweise für den Betrieb durch Rhenus."
+      },
+      {
+        "name": "Remote-Onboarding-Session",
+        "description": "Führe eine technische Übergabe mit dem IT-Team durch, inkl. Deployment, Fehlerbehandlung und Monitoring."
+      }
+    ]
+  }
